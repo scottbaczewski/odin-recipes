@@ -1,0 +1,36 @@
+* {
+    background-color: #3D52A0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p, li {
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: lawngreen;
+}
+
+.home {
+    list-style-type: none;
+}
