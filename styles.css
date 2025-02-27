@@ -20,6 +20,8 @@ h1 {
 h2 {
     text-align: center;
     font-size: 30px;
+    width: 100%;
+    justify-content: center;
 }
 
 p {
@@ -28,27 +30,26 @@ p {
     padding: 10px;
 }
 
-img {
-    display: block;
+.item img {
     margin: 25px;
-    width: 200px;
+    width: 50%;
+    height: auto;
 }
 
-a {
-    display: block;
+.container {
+    display: flex;
     text-align: center;
-    color: lawngreen;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1em;
 }
 
-div.home {
-    display: inline-block;
-    width: auto;
-    margin: 15px;
+.item {
+    width: 400px;
+    height: 300px;
+    color: lawngreen;
+    padding: 10px;
     border: 2px solid black;
-    border-radius: 25px 25px 0px 0px;
-}
-.center {
-    width: auto;
-    margin:auto;
-    text-align:center;
+    border-radius: 25px;
 }
